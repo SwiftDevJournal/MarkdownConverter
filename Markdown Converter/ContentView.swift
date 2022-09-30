@@ -15,6 +15,11 @@ struct ContentView: View {
         }
         .padding()
     }
+    
+    func htmlText() -> String {
+        let markdownText = MarkdownParser.standard.parse(markdown)
+        return HtmlGenerator.standard.generate(doc: markdownText)
+    }
 }
 
 struct ContentView_Previews: PreviewProvider {
