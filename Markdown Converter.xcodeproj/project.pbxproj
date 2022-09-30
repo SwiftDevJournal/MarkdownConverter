@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D5008F328E775A900B9BEC0 /* Markdown_ConverterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5008F228E775A900B9BEC0 /* Markdown_ConverterApp.swift */; };
+		4D5008F528E775A900B9BEC0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5008F428E775A900B9BEC0 /* ContentView.swift */; };
+		4D5008F728E775AA00B9BEC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D5008F628E775AA00B9BEC0 /* Assets.xcassets */; };
+		4D5008FB28E775AA00B9BEC0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D5008FA28E775AA00B9BEC0 /* Preview Assets.xcassets */; };
+		4D50090528E775AB00B9BEC0 /* Markdown_ConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D50090428E775AB00B9BEC0 /* Markdown_ConverterTests.swift */; };
+		4D50090F28E775AB00B9BEC0 /* Markdown_ConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D50090E28E775AB00B9BEC0 /* Markdown_ConverterUITests.swift */; };
+		4D50091128E775AB00B9BEC0 /* Markdown_ConverterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D50091028E775AB00B9BEC0 /* Markdown_ConverterUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D50090128E775AB00B9BEC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D5008E728E775A900B9BEC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D5008EE28E775A900B9BEC0;
+			remoteInfo = "Markdown Converter";
+		};
+		4D50090B28E775AB00B9BEC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D5008E728E775A900B9BEC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D5008EE28E775A900B9BEC0;
+			remoteInfo = "Markdown Converter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D5008EF28E775A900B9BEC0 /* Markdown Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Markdown Converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D5008F228E775A900B9BEC0 /* Markdown_ConverterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Markdown_ConverterApp.swift; sourceTree = "<group>"; };
+		4D5008F428E775A900B9BEC0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4D5008F628E775AA00B9BEC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D5008F828E775AA00B9BEC0 /* Markdown_Converter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Markdown_Converter.entitlements; sourceTree = "<group>"; };
+		4D5008FA28E775AA00B9BEC0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4D50090028E775AB00B9BEC0 /* Markdown ConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Markdown ConverterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D50090428E775AB00B9BEC0 /* Markdown_ConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Markdown_ConverterTests.swift; sourceTree = "<group>"; };
+		4D50090A28E775AB00B9BEC0 /* Markdown ConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Markdown ConverterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D50090E28E775AB00B9BEC0 /* Markdown_ConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Markdown_ConverterUITests.swift; sourceTree = "<group>"; };
+		4D50091028E775AB00B9BEC0 /* Markdown_ConverterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Markdown_ConverterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D5008EC28E775A900B9BEC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D5008FD28E775AB00B9BEC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D50090728E775AB00B9BEC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D5008E628E775A900B9BEC0 = {
+			isa = PBXGroup;
+			children = (
+				4D5008F128E775A900B9BEC0 /* Markdown Converter */,
+				4D50090328E775AB00B9BEC0 /* Markdown ConverterTests */,
+				4D50090D28E775AB00B9BEC0 /* Markdown ConverterUITests */,
+				4D5008F028E775A900B9BEC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D5008F028E775A900B9BEC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D5008EF28E775A900B9BEC0 /* Markdown Converter.app */,
+				4D50090028E775AB00B9BEC0 /* Markdown ConverterTests.xctest */,
+				4D50090A28E775AB00B9BEC0 /* Markdown ConverterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D5008F128E775A900B9BEC0 /* Markdown Converter */ = {
+			isa = PBXGroup;
+			children = (
+				4D5008F228E775A900B9BEC0 /* Markdown_ConverterApp.swift */,
+				4D5008F428E775A900B9BEC0 /* ContentView.swift */,
+				4D5008F628E775AA00B9BEC0 /* Assets.xcassets */,
+				4D5008F828E775AA00B9BEC0 /* Markdown_Converter.entitlements */,
+				4D5008F928E775AA00B9BEC0 /* Preview Content */,
+			);
+			path = "Markdown Converter";
+			sourceTree = "<group>";
+		};
+		4D5008F928E775AA00B9BEC0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4D5008FA28E775AA00B9BEC0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4D50090328E775AB00B9BEC0 /* Markdown ConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D50090428E775AB00B9BEC0 /* Markdown_ConverterTests.swift */,
+			);
+			path = "Markdown ConverterTests";
+			sourceTree = "<group>";
+		};
+		4D50090D28E775AB00B9BEC0 /* Markdown ConverterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4D50090E28E775AB00B9BEC0 /* Markdown_ConverterUITests.swift */,
+				4D50091028E775AB00B9BEC0 /* Markdown_ConverterUITestsLaunchTests.swift */,
+			);
+			path = "Markdown ConverterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D5008EE28E775A900B9BEC0 /* Markdown Converter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D50091428E775AB00B9BEC0 /* Build configuration list for PBXNativeTarget "Markdown Converter" */;
+			buildPhases = (
+				4D5008EB28E775A900B9BEC0 /* Sources */,
+				4D5008EC28E775A900B9BEC0 /* Frameworks */,
+				4D5008ED28E775A900B9BEC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Markdown Converter";
+			productName = "Markdown Converter";
+			productReference = 4D5008EF28E775A900B9BEC0 /* Markdown Converter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D5008FF28E775AB00B9BEC0 /* Markdown ConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D50091728E775AB00B9BEC0 /* Build configuration list for PBXNativeTarget "Markdown ConverterTests" */;
+			buildPhases = (
+				4D5008FC28E775AB00B9BEC0 /* Sources */,
+				4D5008FD28E775AB00B9BEC0 /* Frameworks */,
+				4D5008FE28E775AB00B9BEC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D50090228E775AB00B9BEC0 /* PBXTargetDependency */,
+			);
+			name = "Markdown ConverterTests";
+			productName = "Markdown ConverterTests";
+			productReference = 4D50090028E775AB00B9BEC0 /* Markdown ConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4D50090928E775AB00B9BEC0 /* Markdown ConverterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D50091A28E775AB00B9BEC0 /* Build configuration list for PBXNativeTarget "Markdown ConverterUITests" */;
+			buildPhases = (
+				4D50090628E775AB00B9BEC0 /* Sources */,
+				4D50090728E775AB00B9BEC0 /* Frameworks */,
+				4D50090828E775AB00B9BEC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D50090C28E775AB00B9BEC0 /* PBXTargetDependency */,
+			);
+			name = "Markdown ConverterUITests";
+			productName = "Markdown ConverterUITests";
+			productReference = 4D50090A28E775AB00B9BEC0 /* Markdown ConverterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D5008E728E775A900B9BEC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					4D5008EE28E775A900B9BEC0 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					4D5008FF28E775AB00B9BEC0 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 4D5008EE28E775A900B9BEC0;
+					};
+					4D50090928E775AB00B9BEC0 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 4D5008EE28E775A900B9BEC0;
+					};
+				};
+			};
+			buildConfigurationList = 4D5008EA28E775A900B9BEC0 /* Build configuration list for PBXProject "Markdown Converter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D5008E628E775A900B9BEC0;
+			productRefGroup = 4D5008F028E775A900B9BEC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D5008EE28E775A900B9BEC0 /* Markdown Converter */,
+				4D5008FF28E775AB00B9BEC0 /* Markdown ConverterTests */,
+				4D50090928E775AB00B9BEC0 /* Markdown ConverterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D5008ED28E775A900B9BEC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5008FB28E775AA00B9BEC0 /* Preview Assets.xcassets in Resources */,
+				4D5008F728E775AA00B9BEC0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D5008FE28E775AB00B9BEC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D50090828E775AB00B9BEC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D5008EB28E775A900B9BEC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5008F528E775A900B9BEC0 /* ContentView.swift in Sources */,
+				4D5008F328E775A900B9BEC0 /* Markdown_ConverterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D5008FC28E775AB00B9BEC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D50090528E775AB00B9BEC0 /* Markdown_ConverterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D50090628E775AB00B9BEC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D50091128E775AB00B9BEC0 /* Markdown_ConverterUITestsLaunchTests.swift in Sources */,
+				4D50090F28E775AB00B9BEC0 /* Markdown_ConverterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D50090228E775AB00B9BEC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D5008EE28E775A900B9BEC0 /* Markdown Converter */;
+			targetProxy = 4D50090128E775AB00B9BEC0 /* PBXContainerItemProxy */;
+		};
+		4D50090C28E775AB00B9BEC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D5008EE28E775A900B9BEC0 /* Markdown Converter */;
+			targetProxy = 4D50090B28E775AB00B9BEC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4D50091228E775AB00B9BEC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D50091328E775AB00B9BEC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4D50091528E775AB00B9BEC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Markdown Converter/Markdown_Converter.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Markdown Converter/Preview Content\"";
+				DEVELOPMENT_TEAM = SJHNKGG86R;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SwiftDevJournal.Markdown-Converter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D50091628E775AB00B9BEC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Markdown Converter/Markdown_Converter.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Markdown Converter/Preview Content\"";
+				DEVELOPMENT_TEAM = SJHNKGG86R;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SwiftDevJournal.Markdown-Converter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4D50091828E775AB00B9BEC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SJHNKGG86R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SwiftDevJournal.Markdown-ConverterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Markdown Converter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Markdown Converter";
+			};
+			name = Debug;
+		};
+		4D50091928E775AB00B9BEC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SJHNKGG86R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SwiftDevJournal.Markdown-ConverterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Markdown Converter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Markdown Converter";
+			};
+			name = Release;
+		};
+		4D50091B28E775AB00B9BEC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SJHNKGG86R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SwiftDevJournal.Markdown-ConverterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Markdown Converter";
+			};
+			name = Debug;
+		};
+		4D50091C28E775AB00B9BEC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SJHNKGG86R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SwiftDevJournal.Markdown-ConverterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Markdown Converter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D5008EA28E775A900B9BEC0 /* Build configuration list for PBXProject "Markdown Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D50091228E775AB00B9BEC0 /* Debug */,
+				4D50091328E775AB00B9BEC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D50091428E775AB00B9BEC0 /* Build configuration list for PBXNativeTarget "Markdown Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D50091528E775AB00B9BEC0 /* Debug */,
+				4D50091628E775AB00B9BEC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D50091728E775AB00B9BEC0 /* Build configuration list for PBXNativeTarget "Markdown ConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D50091828E775AB00B9BEC0 /* Debug */,
+				4D50091928E775AB00B9BEC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D50091A28E775AB00B9BEC0 /* Build configuration list for PBXNativeTarget "Markdown ConverterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D50091B28E775AB00B9BEC0 /* Debug */,
+				4D50091C28E775AB00B9BEC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D5008E728E775A900B9BEC0 /* Project object */;
+}
