@@ -9,15 +9,20 @@ import SwiftUI
 import MarkdownKit
 
 struct ContentView: View {
+    @State private var markdown = ""
+    @State private var html = ""
+    
     var body: some View {
         HStack {
-            MarkdownView()
-            HTMLView()
+            MarkdownView(markdown: $markdown)
+                .onChange(of: markdown, perform: { text in
+                    parseMarkdown()
+                })
+            HTMLView(html: $html)
         }
         .padding()
     }
     
-    // How do I parse the Markdown when the Markdown text changes?
     func parseMarkdown() {
         let markdownText = MarkdownParser.standard.parse(markdown)
         html = HtmlGenerator.standard.generate(doc: markdownText)
