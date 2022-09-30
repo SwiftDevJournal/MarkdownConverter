@@ -16,6 +16,7 @@
 		4D50091128E775AB00B9BEC0 /* Markdown_ConverterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D50091028E775AB00B9BEC0 /* Markdown_ConverterUITestsLaunchTests.swift */; };
 		4D50091F28E7761700B9BEC0 /* MarkdownKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4D50091E28E7761700B9BEC0 /* MarkdownKit */; };
 		4D50092128E7765400B9BEC0 /* MarkdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D50092028E7765400B9BEC0 /* MarkdownView.swift */; };
+		4D50092328E7767800B9BEC0 /* HTMLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D50092228E7767800B9BEC0 /* HTMLView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		4D50090E28E775AB00B9BEC0 /* Markdown_ConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Markdown_ConverterUITests.swift; sourceTree = "<group>"; };
 		4D50091028E775AB00B9BEC0 /* Markdown_ConverterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Markdown_ConverterUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4D50092028E7765400B9BEC0 /* MarkdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownView.swift; sourceTree = "<group>"; };
+		4D50092228E7767800B9BEC0 /* HTMLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMLView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				4D5008F628E775AA00B9BEC0 /* Assets.xcassets */,
 				4D5008F428E775A900B9BEC0 /* ContentView.swift */,
+				4D50092228E7767800B9BEC0 /* HTMLView.swift */,
 				4D5008F828E775AA00B9BEC0 /* Markdown_Converter.entitlements */,
 				4D5008F228E775A900B9BEC0 /* Markdown_ConverterApp.swift */,
 				4D50092028E7765400B9BEC0 /* MarkdownView.swift */,
@@ -271,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D50092128E7765400B9BEC0 /* MarkdownView.swift in Sources */,
+				4D50092328E7767800B9BEC0 /* HTMLView.swift in Sources */,
 				4D5008F528E775A900B9BEC0 /* ContentView.swift in Sources */,
 				4D5008F328E775A900B9BEC0 /* Markdown_ConverterApp.swift in Sources */,
 			);
