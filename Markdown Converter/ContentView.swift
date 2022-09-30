@@ -16,9 +16,9 @@ struct ContentView: View {
         .padding()
     }
     
-    func htmlText() -> String {
+    func parseMarkdown() {
         let markdownText = MarkdownParser.standard.parse(markdown)
-        return HtmlGenerator.standard.generate(doc: markdownText)
+        html = HtmlGenerator.standard.generate(doc: markdownText)
     }
 }
 
