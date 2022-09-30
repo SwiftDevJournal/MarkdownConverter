@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct MarkdownView: View {
-    @State var markdown: String = ""
+    @Binding var markdown: String
     
     var body: some View {
         VStack {
@@ -21,6 +21,6 @@ struct MarkdownView: View {
 
 struct MarkdownView_Previews: PreviewProvider {
     static var previews: some View {
-        MarkdownView()
+        MarkdownView(markdown: .constant("Markdown"))
     }
 }
