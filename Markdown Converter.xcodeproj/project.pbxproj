@@ -95,10 +95,10 @@
 		4D5008F128E775A900B9BEC0 /* Markdown Converter */ = {
 			isa = PBXGroup;
 			children = (
-				4D5008F228E775A900B9BEC0 /* Markdown_ConverterApp.swift */,
-				4D5008F428E775A900B9BEC0 /* ContentView.swift */,
 				4D5008F628E775AA00B9BEC0 /* Assets.xcassets */,
+				4D5008F428E775A900B9BEC0 /* ContentView.swift */,
 				4D5008F828E775AA00B9BEC0 /* Markdown_Converter.entitlements */,
+				4D5008F228E775A900B9BEC0 /* Markdown_ConverterApp.swift */,
 				4D5008F928E775AA00B9BEC0 /* Preview Content */,
 			);
 			path = "Markdown Converter";
