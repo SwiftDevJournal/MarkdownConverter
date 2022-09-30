@@ -15,9 +15,9 @@ struct ContentView: View {
     var body: some View {
         HStack {
             MarkdownView(markdown: $markdown)
-                .onChange(of: markdown, perform: { text in
+                .onChange(of: markdown) { _ in
                     parseMarkdown()
-                })
+                }
             HTMLView(html: $html)
         }
         .padding()
