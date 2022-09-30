@@ -8,8 +8,14 @@
 import SwiftUI
 
 struct MarkdownView: View {
+    @State var markdown: String = ""
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("Markdown")
+                .font(.title)
+            TextEditor(text: $markdown)
+        }
     }
 }
 
