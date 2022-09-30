@@ -14,6 +14,7 @@
 		4D50090528E775AB00B9BEC0 /* Markdown_ConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D50090428E775AB00B9BEC0 /* Markdown_ConverterTests.swift */; };
 		4D50090F28E775AB00B9BEC0 /* Markdown_ConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D50090E28E775AB00B9BEC0 /* Markdown_ConverterUITests.swift */; };
 		4D50091128E775AB00B9BEC0 /* Markdown_ConverterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D50091028E775AB00B9BEC0 /* Markdown_ConverterUITestsLaunchTests.swift */; };
+		4D50091F28E7761700B9BEC0 /* MarkdownKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4D50091E28E7761700B9BEC0 /* MarkdownKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D50091F28E7761700B9BEC0 /* MarkdownKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +147,9 @@
 			dependencies = (
 			);
 			name = "Markdown Converter";
+			packageProductDependencies = (
+				4D50091E28E7761700B9BEC0 /* MarkdownKit */,
+			);
 			productName = "Markdown Converter";
 			productReference = 4D5008EF28E775A900B9BEC0 /* Markdown Converter.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +222,9 @@
 				Base,
 			);
 			mainGroup = 4D5008E628E775A900B9BEC0;
+			packageReferences = (
+				4D50091D28E7761700B9BEC0 /* XCRemoteSwiftPackageReference "swift-markdownkit" */,
+			);
 			productRefGroup = 4D5008F028E775A900B9BEC0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -612,6 +620,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4D50091D28E7761700B9BEC0 /* XCRemoteSwiftPackageReference "swift-markdownkit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/objecthub/swift-markdownkit";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4D50091E28E7761700B9BEC0 /* MarkdownKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4D50091D28E7761700B9BEC0 /* XCRemoteSwiftPackageReference "swift-markdownkit" */;
+			productName = MarkdownKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4D5008E728E775A900B9BEC0 /* Project object */;
 }
