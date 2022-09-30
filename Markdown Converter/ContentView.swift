@@ -17,6 +17,7 @@ struct ContentView: View {
         .padding()
     }
     
+    // How do I parse the Markdown when the Markdown text changes?
     func parseMarkdown() {
         let markdownText = MarkdownParser.standard.parse(markdown)
         html = HtmlGenerator.standard.generate(doc: markdownText)
