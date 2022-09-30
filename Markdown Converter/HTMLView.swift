@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct HTMLView: View {
-    @State var html: String = ""
+    @Binding var html: String
     
     var body: some View {
         VStack {
@@ -21,6 +21,6 @@ struct HTMLView: View {
 
 struct HTMLView_Previews: PreviewProvider {
     static var previews: some View {
-        HTMLView()
+        HTMLView(html: .constant("HTML"))
     }
 }
